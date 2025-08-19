@@ -4,4 +4,5 @@ build/
 generated/
 
 .env
+.git
 package-lock.json
