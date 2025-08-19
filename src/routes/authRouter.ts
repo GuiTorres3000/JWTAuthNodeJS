@@ -50,6 +50,7 @@ router.post('/login', async (req: Request, res: Response) => {
             userId: userUnic.id,
             role: userUnic.role,
       })
+      // Enviar o token como resposta
       res.json({token});
 });
 
