@@ -1,4 +1,4 @@
-import { app, server } from "../src/server";
+import { app, server } from "../src";
 import type { Response as SupertestResponse } from "supertest";
 import request from "supertest";
 
