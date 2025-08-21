@@ -3,13 +3,7 @@ import winston from "winston";
 // Define your severity levels.
 // With them, You can create log files,
 // see or hide levels based on the running ENV.
-const levels = {
-  error: 0,
-  warn: 1,
-  info: 2,
-  http: 3,
-  debug: 4,
-};
+const levels = { error: 0, warn: 1, info: 2, http: 3, debug: 4 };
 
 // This method set the current severity based on
 // the current NODE_ENV: show all the log levels
